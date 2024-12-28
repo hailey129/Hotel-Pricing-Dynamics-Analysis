@@ -15,8 +15,6 @@ The dataset includes **149,966 entries** spanning multiple cities and years, spe
 - **`center1distance` / `center2distance`**: Distance from city centers (string, e.g., "3.1 miles").
 - **`starrating`**: Star rating of hotels, ranging from 1 to 5 stars.
 - **`guestreviewsrating`**: Guest review ratings in a mixed format (e.g., "4.3 /5").
-- **`offer_cat`**: Categories of promotional offers (e.g., "15-50% offer").
-- **`scarce_room`**: Binary indicator for room availability (0 = plenty, 1 = scarce).
 - **`holiday`**: Indicates whether a booking date falls on a holiday.
 
 
