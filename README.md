@@ -2,12 +2,10 @@
 
 This repository contains an analysis of hotel pricing in relation to their distance from the city center for Rome. The study leverages multiple statistical models to uncover trends, address outliers, and provide actionable insights into pricing dynamics. Below, you'll find a detailed overview of the project, methodology, and insights.
 
----
 
 ## Introduction
 This project examines how the prices of hotels in Rome vary with their distance from the city center. It uses data preprocessing, visualisation, and statistical modeling techniques to identify trends and anomalies, with the ultimate goal of recommending the best value-for-money hotels for travelers.
 
----
 
 ### Dataset Details
 The dataset includes **149,966 entries** spanning multiple cities and years, specifically **2017–2018**. Key columns include:
@@ -24,7 +22,6 @@ The dataset includes **149,966 entries** spanning multiple cities and years, spe
 3. Applied **log transformations** to normalise data distributions.
 4. Used visualisations (such as histograms, scatterplots) to identify relationships.
 
----
 
 ## Analysis Overview
 The analysis explores:
@@ -37,14 +34,12 @@ The analysis explores:
 3. **Relationship between Price and Distance**:
    - Visualised using scatterplots and **regression lines** (utilising log-transformations).
 
----
 
 ## Key Findings (economic analysis)
 - **Distance and Pricing Relationship**: Prices decrease with increasing distance but plateau beyond 2 miles.
 - **Best Deals**: Identified top 5 underpriced hotels offering significant value near the city center.
 - **Worst Deals**: Highlighted overpriced hotels located farther away yet charging higher rates.
 
----
 
 ## Models and Results
 The study compared three models:
@@ -56,8 +51,6 @@ The study compared three models:
 4. **Residual Analysis**:
     - Identified top and bottom hotel deals.
     - Created visualisations marking underpriced (green) and overpriced (red) hotels.
-
----
 
 ## Conclusion
 - Proximity to the City Center: A significant factor influencing hotel prices, with prices dropping sharply within 2 miles of the city center and stabilising beyond that.
